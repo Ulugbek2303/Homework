@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background:url(../IMG/thumb-1920-565426.jpg) center/cover;
+    width: 100%;
+    height: 100vh;
+    transition: 5s;
+}
+.banner:hover{
+    background: url(../IMG/blendworth-sahara-4k-5k-8k-hd-display-pictures-backgrounds-images-for-whatsapp-mobile-pc-large-349129884.jpg) center/cover;
+    width: 100%;
+    height: 100vh;
+}
+.textb .logo img{
+    width: 90px;
+    height: 90px;
+    margin: 25px;
+    transition: 2s;
+}
+.textb .logo img:hover{
+    padding-left:30px;
+}
+.textb{
+    display: flex;
+}
+.textb ul{
+    display: flex;
+    
+}
+.textb ul li{
+    color: rgb(230, 168, 54);
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    margin: 20px;
+    padding-top: 20px;
+}
+.text2{
+    text-align: center;
+    color: white;
+}
+.text2 h1{
+    font-size: 80px;
+    text-align: center;
+}
+.text2 p{
+    font-size: 30px;
+    width: 80%;
+    margin-left: 100px;
+}
+.banner1{
+    background: url(../IMG/mystic-4159857_1920.jpg)center/cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    transition: 5s;
+}
+.banner1:hover{
+    background: url(../IMG/pyramid-2675466_1920.jpg)center/cover;
+    width: 100%;
+    height: 100vh;
+}
+.side2{
+    text-align: center;
+    padding-top: 150px;
+}
+.side2 h1{
+    font-size: 50px;
+    color: wheat;
+}
+.side2 p{
+    font-size: 30px;
+    color: wheat;
+    width: 80%;
+    padding-left: 130px;
+}
+.side2 a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background: wheat;
+    border-radius: 10px;
+}
+.banner3{
+    background: url(../IMG/thumb-1920-565426.jpg)center/cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.card_side{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    background: url(../IMG/pyramid-2675466_1920.jpg) center/cover;
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(206, 166, 92);
+    transition: 2s;
+
+}
+.card1:hover{
+    box-shadow: 0px 0px 50px rgb(29, 204, 137);
+    background: url(../IMG/7af507100305c535a13df5125d9060ca.gif) center/cover;
+}
+.card1:nth-child(2){
+    background: url(../IMG/blendworth-sahara-4k-5k-8k-hd-display-pictures-backgrounds-images-for-whatsapp-mobile-pc-large-349129884.jpg)center/cover;
+    transition: 2s;
+}
+.card1:nth-child(2):hover{
+    box-shadow: 0px 0px 50px rgb(211, 231, 24);
+    background: url(../IMG/7af507100305c535a13df5125d9060ca.gif) center/cover;
+}
+.card1:nth-child(3){
+    background: url(../IMG/mystic-4159857_1920.jpg)center/cover;
+    transition: 2s;
+}
+.card1:nth-child(3):hover{
+    box-shadow: 0px 0px 50px wheat;
+    background: url(../IMG/7af507100305c535a13df5125d9060ca.gif) center/cover;
+}
+.banner4{
+    background: url(../IMG/10.Jun.2019-rasteniya-v-krasnoj-pustyne.jpg)center/cover;
+    width: 100%;
+    height: 100vh;
+    transition: 5s;
+}
+.banner4:hover{
+    background: url(../IMG/3b6935e28653ed9.jpg)center/cover;
+    width: 100%;
+    height: 100vh;
+}
+.card2{
+    text-align: center;
+}
+.card2 h1{
+    color: wheat;
+    font-size: 80px;
+    padding-top: 100px;
+    
+}
+.card2 a{
+    text-decoration: none;
+    font-size: 30px;
+    background: wheat;
+    padding:10px;
+    color:black;
+    border-radius: 20px;
+    
+}
+.end{
+    margin-top: 100px;
+}
+.end .marquee{
+    font-size: 50px;
+    color: wheat;
+}
+
+
+
+
+
+@media(max-width:780px){
+    .textb ul li{
+        font-size: 20px;
+    }
+    .text2 h1{
+        font-size: 30px;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .text2 p{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .side2 p{
+        font-size: 20px;
+        padding-left: 20px;
+
+    }
+}
+@media(max-width:680px){
+    .textb ul li{
+        font-size: 15px;
+        margin: 10px;
+    }
+}
+@media(max-width:480px){
+    .textb .logo img{
+        width: 50px;
+        height: 50px;
+        margin: 15px;
+    }
+    .textb ul li{
+        font-size: 15px;
+    }
+}
+@media(max-width:900px){
+    .card_side{
+        flex-direction: column;
+    }
+    .card1{
+        width: 180px;
+        height: 180px;
+        margin-top: 20px;
+    }
+}
+@media(max-width:600px){
+    .card1{
+        width: 170px;
+        height: 170px;
+    }
+}
